@@ -12,7 +12,7 @@ describe('AccessTravel Tests',()=>{
     
     });
     
- //Destination field testing
+ //Destination field testing 
  it('Verifying Destination field positive tests',()=>{
     cy.get('[id=Filter_DestinationId]').select('Paris','4').invoke('val').should('equal','4');
   
